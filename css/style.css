@@ -8,7 +8,7 @@
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    background: rgba(249,250,254,0.5);
+    background: white;
 }
 
 header{
@@ -120,6 +120,10 @@ p,h1,label{
     display: inline-block;    
 }
 
+.card-wrapper a{
+    text-decoration: none;
+}
+
 .card{
     min-height: 160px;
     min-width: 175px;
@@ -140,6 +144,7 @@ p,h1,label{
   height: 0;
   overflow: hidden;
   border-radius: 4px;
+  transition: transform 0.5s ease;
 }
 
 .image-wrapper img{
@@ -149,6 +154,10 @@ p,h1,label{
     transform: translateY(-50%);
     width: 100%;
     height: auto;
+}
+
+.image-wrapper:hover{
+    transform: scale(1.03);
 }
 
 .image-wrapper .stageone{
