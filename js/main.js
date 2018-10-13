@@ -24,7 +24,7 @@ contactSubmit.addEventListener('click', (e)=> {
       }
     };
 
-   const url = "https://script.google.com/macros/s/AKfycbyuFIEsLSei7wgbmO4aUuurv_5xAypuyqweNQYrdZNY01pQ7vg/exec";
+   const url = "https://script.google.com/macros/s/AKfycbxxOgizTg8_9ZXoGH_6zmp8JlcuOmW4TSjkzeyfDW7lAlWiyiAg/exec";
    xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'text/plain');
    xhttp.setRequestHeader('Accept', 'text/plain');
