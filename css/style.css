@@ -4,11 +4,10 @@
 }
 
 .wrapper{
-    min-width: 100vw;
-    min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     background: white;
+    min-height: 100vh;
 }
 
 header{
@@ -29,7 +28,6 @@ p,h1,label{
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 16px;
-    width: 140px;
 }
 
 #wave{
@@ -41,7 +39,7 @@ p,h1,label{
 
 .contact-container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .contact{
     /* position: absolute;
@@ -52,7 +50,6 @@ p,h1,label{
 }
 
 .contact-content form{
-  flex-direction: column;
     align-items: flex-end;
 }
 
@@ -70,9 +67,10 @@ p,h1,label{
 }
 
 .form-input-div{
-    flex-flow: row wrap;
-    justify-content: space-between;
+    /* flex-flow: column; */
+    width: 360px;
 }
+
 
 
 .form-input{
@@ -106,9 +104,10 @@ p,h1,label{
 }
 
 .row{
-    /* display: flex;
+    display: flex;
     justify-content: space-evenly;
-    align-items: center; */
+    align-items: center;
+    max-width: 580px;
 }
 
 .card-wrapper{
@@ -264,6 +263,10 @@ p,h1,label{
 
     #wave{
         width: 56%;
+    }
+
+    .contact-content form{
+        flex-flow: column;
     }
 }
 
